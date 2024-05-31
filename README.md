@@ -33,16 +33,21 @@ estadísticas no están disponibles "cuando todas las estadisticas sean todas nu
 EJEMPLO:
 
 *ESTE GRAFICO NO SE VERA*  
- El heroe id-124  
+``` 
+ El heroe id-124
+
  "powerstats": {  
  "intelligence": "null",  
  "strength": "null",  
  "speed": "null",      
  "durability": "null",  
   "power": "null",  
-  "combat": "null"}  
+  "combat": "null"}
+  ```  
+  
 
-*ESTE GRAFICO SI SE VERA*   
+*ESTE GRAFICO SI SE VERA*  
+ ``` 
 El heroe id-125  
 "powerstats": {  
 "intelligence": "null",  
@@ -51,7 +56,8 @@ El heroe id-125
 "durability": "null",  
 "power": "null",  
 "combat": "null"}  
-  
+  ```
+   
 "Fue una manera para que no se rompiera el codigo cuando todos los stats fueran null, y apareciera 
 un mensaje indicandolo.""
 
