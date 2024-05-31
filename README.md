@@ -32,26 +32,25 @@ gráfico si están disponibles aunque sea "1" powerstats. En caso contrario, se 
 estadísticas no están disponibles "cuando todas las estadisticas sean todas null o "-".
 EJEMPLO:
 
-*ESTE GRAFICO NO SE VERA*
- <p>El heroe id-124</p>
- <p>"powerstats": {</p>
- <p>"intelligence": "null",</p>
- <p>"strength": "null",</p>
- <p>"speed": "null", </p>   
- <p>"durability": "null",</p>
- <p> "power": "null",</p>
- <p> "combat": "null"}</p>
+*ESTE GRAFICO NO SE VERA*  
+ El heroe id-124  
+ "powerstats": {  
+ "intelligence": "null",  
+ "strength": "null",  
+ "speed": "null",      
+ "durability": "null",  
+  "power": "null",  
+  "combat": "null"}  
 
-*ESTE GRAFICO SI SE VERA*  
-    
-<p>El heroe id-125</p>
-<p>"powerstats": {</p>
-<p>"intelligence": "null",</p>
-<p> "strength": "45",</p>
-<p>"speed": "null",</p>
-<p>"durability": "null",</p>
-<p>"power": "null",</p>
-<p>"combat": "null"}</p>
+*ESTE GRAFICO SI SE VERA*   
+El heroe id-125  
+"powerstats": {  
+"intelligence": "null",  
+ "strength": "45",  
+"speed": "null",  
+"durability": "null",  
+"power": "null",  
+"combat": "null"}  
   
 "Fue una manera para que no se rompiera el codigo cuando todos los stats fueran null, y apareciera 
 un mensaje indicandolo.""
