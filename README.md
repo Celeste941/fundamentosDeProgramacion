@@ -33,7 +33,7 @@ estadísticas no están disponibles "cuando todas las estadisticas sean todas nu
 EJEMPLO:
 
 *ESTE GRAFICO NO SE VERA*  
-``` 
+``` javascript
  El heroe id-124
 
  "powerstats": {  
@@ -57,7 +57,7 @@ El heroe id-125
 "power": "null",  
 "combat": "null"}  
   ```
-   
+
 "Fue una manera para que no se rompiera el codigo cuando todos los stats fueran null, y apareciera 
 un mensaje indicandolo.""
 
