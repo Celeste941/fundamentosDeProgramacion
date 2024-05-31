@@ -1,3 +1,6 @@
+![alt](./assets/img/img-del-proyecto.png)
+
+
 Desarrolladora : Ana Celeste Pérez
 ## Descripción
 Este código es para buscar superhéroes que utiliza la API de Superhero para obtener información
@@ -9,7 +12,7 @@ sobre personajes de cómics. Permite a los usuarios ingresar un numero de un sup
 Cuando el usuario envía el formulario con el botón de búsqueda, el código se activa para procesar
  la solicitud.
 
-2-Validación de entrada:
+2-[Validación de entrada:](./assets/js/index.js#L57)
 Se verifica que el ID-número ingresado por el usuario sea un número entero positivo mayor que cero.
 Si la entrada no cumple con esta condición, se muestra una alerta indicando que se debe ingresar un 
 número válido.
