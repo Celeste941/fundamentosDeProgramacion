@@ -1,5 +1,11 @@
 ![alt](./assets/img/img-del-proyecto.png)
+- [SuperHero API](#superhero-api)
+  - [Descripción](#descripción)
+  - [Funcionamiento](#funcionamiento)
+  - [Uso](#uso)
+  - [Notas adicionales](#notas-adicionales)
 
+# SuperHero API
 
 Desarrolladora : Ana Celeste Pérez
 ## Descripción
@@ -11,6 +17,7 @@ sobre personajes de cómics. Permite a los usuarios ingresar un numero de un sup
 1-Envío del formulario:
 Cuando el usuario envía el formulario con el botón de búsqueda, el código se activa para procesar
  la solicitud.
+ 
 
 2-[Validación de entrada:](./assets/js/index.js#L57)
 Se verifica que el ID-número ingresado por el usuario sea un número entero positivo mayor que cero.
@@ -32,7 +39,7 @@ disponible saldra un mensaje indicandoselo al usuario.
 Además de la tarjeta de detalles, se muestra un gráfico "pastel" que representa las estadísticas de
 poder del superhéroe. Estas estadísticas se obtienen de la respuesta de la API y se muestran en el 
 gráfico si están disponibles aunque sea "1" powerstats. En caso contrario, se indicara que las 
-estadísticas no están disponibles "cuando todas las estadisticas sean todas null o "-".
+estadísticas no están disponibles "cuando todas las estadisticas sean todas null o "-". [Ir al inicio](#superhero-api)
 EJEMPLO:
 
 *ESTE GRAFICO NO SE VERA*  
@@ -82,7 +89,8 @@ obtener la información del superhéroe.
 
 3-Visualización de resultados:
 Una vez que se completa la búsqueda, se muestran los detalles del superhéroe y, si están disponibles, las 
-estadísticas de poder en forma de gráfico circular.
+estadísticas de poder en forma de gráfico circular.  
+[Ir al inicio](#superhero-api)
 
 ## Notas adicionales
 -El llamado de esta api en particular estuvo algo compleja, ya que existian datos que estaban incompletos
@@ -97,6 +105,7 @@ mostrando el grafico si todos eran null y si un stat salia se mostraba ese podee
 detalle, simplemente deje que se mostrara pero no se si sera agradable ante la vista del usuario o mejor 
 desaparecer ese dato con un condicional "se ira mejorando el codigo"
 En caso de que algunos datos de la API estén ausentes o sean incorrectos, se ha implementado lógica para evitar
-errores y mostrar la información disponible de manera apropiada "los que se pudo".
+errores y mostrar la información disponible de manera apropiada "los que se pudo".  
+[Ir al inicio](#superhero-api)
 
 
