@@ -58,7 +58,8 @@ El heroe id-125
 "combat": "null"}  
   ```
 
-"Fue una manera para que no se rompiera el codigo cuando todos los stats fueran null, y apareciera 
+
+"Fue una manera para que no se rompiera el codigo cuando todos los stats fueran `null`, y apareciera 
 un mensaje indicandolo.""
 
 Manejo de errores:
